@@ -1,7 +1,7 @@
 BTree implementation for Go
 ===========================
 
-Rain is distributed as single binary file. The main use case is running rain server command and operating the server with rain client <subcommand> commands. Server consists of a BitTorrent client and a RPC server. Rain client is used to give commands to the server.
+Rain library - The main use case is running rain server command and operating the server with rain client <subcommand> commands. Server consists of a BitTorrent client and a RPC server. Rain client is used to give commands to the server.
 
 Priority is a number that determines the connect order for Peers.
 
