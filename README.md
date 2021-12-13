@@ -1,6 +1,10 @@
 BTree implementation for Go
 ===========================
 
+Rain is distributed as single binary file. The main use case is running rain server command and operating the server with rain client <subcommand> commands. Server consists of a BitTorrent client and a RPC server. Rain client is used to give commands to the server.
+Priority is a number that determines the connect order for Peers.
+Concurrent btree can be used for optimisation of AddrList APIs which are used for performing operations on peerByPriority data structure. 
+
 ![Travis CI Build Status](https://api.travis-ci.org/tidwall/btree.svg?branch=master)
 [![GoDoc](https://godoc.org/github.com/tidwall/btree?status.svg)](https://godoc.org/github.com/tidwall/btree)
 
